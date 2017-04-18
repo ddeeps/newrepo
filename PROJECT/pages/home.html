@@ -1,0 +1,7 @@
+<div>
+     <div ng-repeat="data in datas | orderBy:'-timestamp' track by $index">
+        <div ng-if="data.type=='image'"><image-card image='data' modal="datas"></image-card></div>   
+        <div ng-if="data.type=='link'"><link-card link='data' modal="datas"></link-card></div>
+        <div ng-if="data.type=='text'"><text-card text='data' modal="datas"></text-card></div>                      
+    </div>  
+</div>

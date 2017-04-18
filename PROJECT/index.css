@@ -1,0 +1,35 @@
+.imgCard {
+    border: 2px solid black;
+    padding: 15px;
+    margin: 10px 10px -10px 10px;
+    background-color:lightgreen;
+}
+
+.linkCard {
+    border: 2px solid black;
+    padding: 15px;
+    margin: 10px 10px -10px 10px;
+    background-color:lightblue;
+}
+
+.textCard {
+    border: 2px solid black;
+    padding: 15px;
+    margin: 10px 10px -10px 10px;
+    background-color:lightpink;
+}
+
+.cardDetail{
+    border: 2px solid black;
+    padding: 15px;
+    margin: 10px 10px -10px 10px;
+}
+
+.headerStyle{
+    float:right;
+}
+
+.detailCardBtnStyle{
+    float:right;
+    vertical-align: bottom;
+}
